@@ -12,12 +12,17 @@ body{
 
 
 /*navbar*/
+/*navbar*/
+
+
+
 .nav{
     text-align: center;
-    position: relative;
+	position: relative;
+	
 }
 ul.nav{
-    margin-top:8px;
+    margin:0;
     padding:0;
     list-style: none;
     /*font-family: 'Red Hat Text', sans-serif;*/
@@ -28,7 +33,8 @@ ul.nav{
     font-size: 20px;
 
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	margin-top: .4em;
     
 }
 
@@ -52,6 +58,7 @@ ul.nav a:hover{
     color:white;
 }
 
+/*navbar*/
 /*navbar*/
 
 
