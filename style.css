@@ -1,0 +1,213 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+body{
+    background-color: lightslategrey;
+}
+
+
+.name{
+
+    position: absolute; /* or absolute */
+    margin:0 auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: rgb(224, 214, 214);
+    text-align: center;
+    min-width: 100%;
+    margin-top: 8.5em;
+}
+
+.intro{
+    position: absolute;
+    margin:0 auto;
+    /*center*/
+    margin-top: 26.5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*center*/
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(224, 214, 214);
+    text-align: center;
+    min-width: 100%;
+    font-size: 18px;
+
+}
+
+
+
+
+/*navbar*/
+
+
+
+.nav{
+    text-align: center;
+    position: relative;
+}
+ul.nav{
+    margin:0;
+    padding:0;
+    list-style: none;
+    /*font-family: 'Red Hat Text', sans-serif;*/
+    /*font-family: 'Rosario', sans-serif;*/
+    font-family: 'Catamaran', sans-serif;
+
+  
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul.nav li{
+    float: left;
+
+}
+
+ul.nav a{
+  
+    padding:0 28px ;
+    color: rgb(224, 214, 214);
+    text-decoration: none;
+
+    /*makes hover slower*/
+    transition: all 250ms ease-in-out;
+
+}
+
+ul.nav a:hover{
+    color:white;
+}
+
+/*navbar*/
+
+/*headshot*/
+.headshot{
+    width:280px;
+    height:280px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgb(224, 214, 214);
+    margin-top: 15em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/*headshot*/
+
+/*cloud*/
+/*
+.cloud1{
+    position:absolute;
+    margin:0 auto;
+    width:900px;
+   
+    margin-top: 12em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.cloud2{
+    position:absolute;
+    margin:0 auto;
+    top: 10em;
+    left: 20em;
+}
+.cloud3{
+    position:absolute;
+    margin:0 auto;
+    top:5em;
+}
+.cloud4{
+    position:absolute;
+    margin:0 auto;
+    top:30em;
+}
+.cloud5{
+    position:absolute;
+    margin:0 auto;
+    top:25em;
+    left:40em;
+}
+.cloud6{
+    position:absolute;
+    margin:0 auto;
+    top:30em;
+}
+.cloud7{
+    position:absolute;
+    margin:0 auto;
+    top:20em;
+    right:60em;
+}
+.cloud8{
+    position:absolute;
+    margin:0 auto;
+    top:15em;
+    left: 55em;
+}
+*/
+/*cloud*/
+
+
+
+
+/*social media*/
+.container{
+    position:absolute;
+    margin:0 auto;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: rgb(224, 214, 214);
+    bottom:-15px;
+    
+}
+
+.container> div{
+    margin:0px 5px;
+    /*background: grey;*/
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+
+    transition: all 350ms ease-in-out;
+    
+}
+
+
+div.fa-envelope:hover{
+    color:lightslategrey;
+    background:#fff;
+    
+    transform: scale(1.2);
+
+}
+div.fa-linkedin:hover{
+    color:lightslategrey;
+    background:#fff;
+  
+    transform: scale(1.2);
+}
+/*social media*/
+
+
+/*copyright*/
+
+.copyRight{
+    position: absolute;
+    right: 6px;
+    bottom:8px;
+    color:rgb(224, 214, 214);
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+/*copyright*/
