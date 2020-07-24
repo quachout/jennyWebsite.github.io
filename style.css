@@ -25,11 +25,12 @@ body{
     position: absolute;
     margin:0 auto;
     /*center*/
-    margin-top: 26.5em;
+    margin-top: 26.3em;
     left: 50%;
     transform: translate(-50%, -50%);
     /*center*/
     font-family: 'Catamaran', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     color: rgb(224, 214, 214);
     text-align: center;
     min-width: 100%;
@@ -211,3 +212,39 @@ div.fa-linkedin:hover{
 
 
 /*copyright*/
+
+/*typewriter*/
+
+
+
+
+  .line-1{
+    font-family: 'Rajdhani', sans-serif;
+      position: relative;
+      top: 16em;  
+      width: 9em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255,255,255,.75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%); 
+      color:   rgb(224, 214, 214);
+  }
+  
+  /* Animation */
+  .anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 9em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  
+  /*typewriter*/
+  
