@@ -3,6 +3,7 @@
 
 body{
     background-color: lightslategrey;
+
 }
 
 
@@ -97,6 +98,7 @@ ul.nav a:hover{
     margin-top: 15em;
     left: 50%;
     transform: translate(-50%, -50%);
+
     
 }
 /*headshot*/
@@ -247,4 +249,5 @@ div.fa-linkedin:hover{
     to{border-right-color: transparent;}
   }
   /*typewriter*/
+  
   
