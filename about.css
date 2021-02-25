@@ -341,15 +341,15 @@ footer {
 }
 
 #lockheed img{     
-    width: 150%;
-    height:15%;
-    margin-left:-2.5em;
+    width: 120%;
+    height:auto;
+    margin-left:-0.5em;
 }
 
 #qualcomm img{
-    width: 150%;
-    height:3.4%;
-    margin-left:-2.5em;
+    width: 120%;
+    height:auto;
+    margin-left:-0.5em;
 }
 
 #cove img{
